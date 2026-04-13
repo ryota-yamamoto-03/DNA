@@ -25,6 +25,14 @@ const WORKS = [
     url: 'https://ph19-ryota.github.io/STOPLINE.VGA/',
   },
   {
+    title: '第六感 歌詞動画',
+    tag: 'Video',
+    color: 'video',
+    desc: '第六感 / Reolの歌詞動画。After Effectsで、音楽のビートや歌詞の内容に合わせてダイナミックに変化するテキストアニメーションを実現。',
+    tech: ['After Effects'],
+    url: 'https://youtu.be/fS2qOu8WHTw?si=X6gnfLDhHny2KUsz',
+  },
+  {
     title: 'MetaMuse',
     tag: 'Web',
     color: 'web',
