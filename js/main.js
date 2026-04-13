@@ -17,6 +17,22 @@ const C = Object.fromEntries(
 // ── Portfolio data ──────────────────────────────────────────────────────────
 const WORKS = [
   {
+    title: 'STOPLINE',
+    tag: 'Game',
+    color: 'game',
+    desc: '制限時間内に線を引いてボールを目的地まで運ぶ、戦略性と直感が試されるシンプルなシングルプレイゲームです',
+    tech: ['Unity', 'C#','WebGL'],
+    url: 'https://ph19-ryota.github.io/STOPLINE.VGA/',
+  },
+  {
+    title: 'MetaMuse',
+    tag: 'Web',
+    color: 'web',
+    desc: '仮想空間で活動する次世代バーチャルアイドル。音楽とテクノロジーを融合し新しい推し体験を届ける存在です。',
+    tech: ['ChatGPT', 'suno AI', 'HTML', 'CSS', 'JavaScript'],
+    url: 'https://metamuse-virtualidol.github.io/Official/index.html#',
+  },
+  {
     title: 'WowMe',
     tag: 'Web',
     color: 'web',
@@ -33,31 +49,6 @@ const WORKS = [
     url: 'https://dorusuke.vercel.app/',
   },
   {
-    title: 'STOPLINE',
-    tag: 'Game',
-    color: 'game',
-    desc: '制限時間内に線を引いてボールを目的地まで運ぶ、戦略性と直感が試されるシンプルなシングルプレイゲームです',
-    tech: ['Unity', 'C#','WebGL'],
-    url: 'https://ph19-ryota.github.io/STOPLINE.VGA/',
-  },
-  {
-    title: 'FAKE/REAL',
-    tag: 'AI',
-    color: 'ai',
-    desc: 'AI・偽サイト検出ツール。URLを入力するだけで、そのサイトが本物か偽物かをAIが分析し、ユーザーに警告します。安全なネット利用をサポートするサービスです。',
-    tech: ['ClaudeCode', 'HTML', 'vercel', 'GitHub'],
-    url: 'https://fakescan-three.vercel.app/',
-
-  },
-  {
-    title: 'MetaMuse',
-    tag: 'Web',
-    color: 'web',
-    desc: '仮想空間で活動する次世代バーチャルアイドル。音楽とテクノロジーを融合し新しい推し体験を届ける存在です。',
-    tech: ['ChatGPT', 'suno AI', 'HTML', 'CSS', 'JavaScript'],
-    url: 'https://metamuse-virtualidol.github.io/Official/index.html#',
-  },
-  {
     title: 'AI Closet',
     tag: 'AI',
     color: 'ai',
@@ -72,6 +63,15 @@ const WORKS = [
     desc: 'AIが毎日のAIニュースをまとめたニュース日報。最新の情報をお届けします。',
     tech: ['ClaudeCode', 'Vercel', 'GitHub'],
     url: 'https://ai-news-daily-nine.vercel.app/',
+  },
+  {
+    title: 'FAKE/REAL',
+    tag: 'AI',
+    color: 'ai',
+    desc: 'AI・偽サイト検出ツール。URLを入力するだけで、そのサイトが本物か偽物かをAIが分析し、ユーザーに警告します。安全なネット利用をサポートするサービスです。',
+    tech: ['ClaudeCode', 'HTML', 'vercel', 'GitHub'],
+    url: 'https://fakescan-three.vercel.app/',
+
   }
 ];
 
