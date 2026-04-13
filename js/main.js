@@ -65,7 +65,7 @@ const WORKS = [
     url: 'https://ai-news-daily-nine.vercel.app/',
   },
   {
-    title: 'FAKE/REAL',
+    title: 'FAKESCAN',
     tag: 'AI',
     color: 'ai',
     desc: 'AI・偽サイト検出ツール。URLを入力するだけで、そのサイトが本物か偽物かをAIが分析し、ユーザーに警告します。安全なネット利用をサポートするサービスです。',
