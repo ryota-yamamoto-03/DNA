@@ -25,6 +25,14 @@ const WORKS = [
     url: 'https://hello-wowme.github.io/WowMe/',
   },
   {
+    title: 'ドルスケ',
+    tag: 'AI',
+    color: 'ai',
+    desc: 'アイドルのライブ情報をまとめて確認できるスケジュール共有サービス。推し活を効率化できる便利ツールです誰でも簡単に利用可能で、ファン同士の交流も促進します。',
+    tech: ['ClaudeCode', 'Supabase', 'Vercel'],
+    url: 'https://dorusuke.vercel.app/',
+  },
+  {
     title: 'STOPLINE',
     tag: 'Game',
     color: 'game',
@@ -33,20 +41,13 @@ const WORKS = [
     url: 'https://ph19-ryota.github.io/STOPLINE.VGA/',
   },
   {
-    title: '第六感 歌詞動画',
-    tag: 'Video',
-    color: 'video',
-    desc: '第六感 / Reolの歌詞動画。After Effectsで、音楽のビートや歌詞の内容に合わせてダイナミックに変化するアニメーションを実現。',
-    tech: ['After Effects'],
-    url: 'https://www.youtube.com/watch?v=fS2qOu8WHTw',
-  },
-  {
-    title: 'ドルスケ',
+    title: 'FAKE/REAL',
     tag: 'AI',
     color: 'ai',
-    desc: 'アイドルのライブ情報をまとめて確認できるスケジュール共有サービス。推し活を効率化できる便利ツールです誰でも簡単に利用可能で、ファン同士の交流も促進します。',
-    tech: ['ClaudeCode', 'Supabase', 'Vercel'],
-    url: 'https://dorusuke.vercel.app/',
+    desc: 'AI・偽サイト検出ツール。URLを入力するだけで、そのサイトが本物か偽物かをAIが分析し、ユーザーに警告します。安全なネット利用をサポートするサービスです。',
+    tech: ['ClaudeCode', 'HTML', 'vercel', 'GitHub'],
+    url: 'https://fakescan-three.vercel.app/',
+
   },
   {
     title: 'MetaMuse',
@@ -63,14 +64,6 @@ const WORKS = [
     desc: 'AIがあなたのクローゼットから今日の天気に合ったコーデを提案します',
     tech: ['ClaudeCode', 'Supabase', 'Vercel'],
     url: 'https://ai-closet-one.vercel.app/',
-  },
-    {
-    title: 'これがぼくのきもち',
-    tag: 'Video',
-    color: 'video',
-    desc: 'スカイピースさんのMVをUnityで完全再現したつもりです。UnityのTimelineを駆使して作成したファンメイドの映像作品です。',
-    tech: ['Unity'],
-    url: 'https://www.youtube.com/watch?v=lcPGTcg1R40',
   },
   {
     title: 'AIニュース日報',
