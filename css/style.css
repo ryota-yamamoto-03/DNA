@@ -1,7 +1,7 @@
 :root {
   --c-web:   #00f5ff;
   --c-game:  #7b2ff7;
-  --c-video: #ff006e;
+  --c-career: #ff006e;
   --c-ai:    #f5a623;
 }
 
@@ -35,7 +35,7 @@ canvas { display: block; }
   font-size: clamp(2rem, 6vw, 5rem);
   font-weight: 900;
   letter-spacing: 0.15em;
-  background: linear-gradient(135deg, var(--c-web), var(--c-game), var(--c-video));
+  background: linear-gradient(135deg, var(--c-web), var(--c-game), var(--c-career));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

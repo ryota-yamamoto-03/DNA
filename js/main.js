@@ -6,7 +6,7 @@ const _rs = getComputedStyle(document.documentElement);
 const PALETTE = {
   web:   _rs.getPropertyValue('--c-web').trim(),
   game:  _rs.getPropertyValue('--c-game').trim(),
-  video: _rs.getPropertyValue('--c-video').trim(),
+  career: _rs.getPropertyValue('--c-career').trim(),
   ai:    _rs.getPropertyValue('--c-ai').trim(),
 };
 // Three.js integer equivalents
@@ -25,12 +25,12 @@ const WORKS = [
     url: 'https://ph19-ryota.github.io/STOPLINE.VGA/',
   },
   {
-    title: '第六感 歌詞動画',
-    tag: 'Video',
-    color: 'video',
-    desc: '第六感 / Reolの歌詞動画。After Effectsで、音楽のビートや歌詞の内容に合わせてダイナミックに変化するテキストアニメーションを実現。',
-    tech: ['After Effects'],
-    url: 'https://youtu.be/fS2qOu8WHTw?si=X6gnfLDhHny2KUsz',
+    title: '新卒DeNA入社→IRIAMへ出向社員',
+    tag: 'Career',
+    color: 'career',
+    desc: '新卒でDeNAに入社し、子会社のIRIAMへ出向。バーチャルライブ配信アプリの開発を担当し、コミュニティーチームでもMVP賞を受賞。技術とコミュニティの両面で貢献した経験があります。',
+    tech: ['Unity', 'C#'],
+    url: 'https://line.connpass.com/event/261038/'
   },
   {
     title: 'MetaMuse',
@@ -121,7 +121,7 @@ const addPointLight = (color, x, y, z, intensity = 2) => {
 };
 addPointLight(C.web,    -10,  5,  5);
 addPointLight(C.game,    10, -5, -5);
-addPointLight(C.video,    0, -10, 10, 1.5);
+addPointLight(C.career,    0, -10, 10, 1.5);
 
 // ── DNA Helix ────────────────────────────────────────────────────────────────
 const DNA_HEIGHT   = 28;
@@ -190,7 +190,7 @@ for (let i = 0; i < RUNG_COUNT; i++) {
 
   // Glow sphere at each rung end
   const sphereGeo = new THREE.SphereGeometry(0.14, 12, 12);
-  const col = i % 2 === 0 ? C.web : C.video;
+  const col = i % 2 === 0 ? C.web : C.career;
   const sphereMat = new THREE.MeshStandardMaterial({
     color: col, emissive: col, emissiveIntensity: 1.2,
     roughness: 0.1, metalness: 0.5,
