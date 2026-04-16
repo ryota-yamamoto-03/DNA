@@ -65,14 +65,6 @@ const WORKS = [
     url: 'https://ai-closet-one.vercel.app/',
   },
   {
-    title: 'AIニュース日報',
-    tag: 'AI',
-    color: 'ai',
-    desc: 'AIが毎日のAIニュースをまとめたニュース日報。最新の情報をお届けします。',
-    tech: ['ClaudeCode', 'Vercel', 'GitHub'],
-    url: 'https://ai-news-daily-nine.vercel.app/',
-  },
-  {
     title: 'FAKESCAN',
     tag: 'AI',
     color: 'ai',
