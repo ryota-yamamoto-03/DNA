@@ -46,7 +46,7 @@ const WORKS = [
     color: 'web',
     desc: '推しとファンをつなぐ動画メッセージアプリ。特別な想いを届ける新体験サービスで誕生日や記念日に世界に一つの感動を贈れるサービスです。',
     tech: ['HTML', 'CSS', 'JS', 'Square'],
-    url: 'https://hello-wowme.github.io/WowMe/',
+    url: 'https://hello-wowme.github.io/WowMe-Official/',
   },
   {
     title: 'ドルスケ',
